@@ -1,0 +1,14 @@
+ocr:
+    region: 'manually'  # 'full' or [x,y,x+w,y+h] or 'manually'
+    interval: 10
+    tesseract_path: /usr/bin/tesseract
+    keyword_file: keywords.csv
+    lang: chi_sim+eng
+    
+api_endpoints:
+    gpt_endpoint: "http://127.0.0.1:5000/api/send/v1/chat/completions"
+    transparent_endpoint: "http://127.0.0.1:5000/transparent_pass"
+    
+logging:
+    log_file: assistant.log
+    log_level: INFO

@@ -1,0 +1,8 @@
+numpy==2.2.4
+opencv_python==4.11.0.86
+Pillow==9.0.1
+Pillow==11.1.0
+pytesseract==0.3.13
+PyYAML==5.4.1
+PyYAML==6.0.2
+Requests==2.32.3
